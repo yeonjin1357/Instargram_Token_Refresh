@@ -1,8 +1,6 @@
 name: Refresh Instagram Token and Update Firestore
 
 on:
-  schedule:
-    - cron: '0 0 * * *' # 매일 자정에 실행
   workflow_dispatch:
 
 jobs:
